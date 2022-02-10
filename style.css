@@ -4,6 +4,9 @@
 }
 
 body {
+  background-image: url("img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -11,25 +14,25 @@ body {
   min-height: 100vh;
 }
 
-button{
-    background: rgb(181, 5, 197);;
-    color: #fff;
-    border-radius: 5px;
-    padding :1rem;
-    border:none;
-    font-family: inherit;
+button {
+  background: rgb(181, 5, 197);
+  color: #fff;
+  border-radius: 7rem;
+  padding: 1rem;
+  border: none;
+  font-family: inherit;
 }
 
-#container{
-position:fixed;
-bottom: 10px;   
-right: 10px;   
+#container {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
 }
 
-.toast{
-    padding: 2rem;
-    background: rgb(181, 5, 197);
-    color:#fff;
-    border-radius: 6px;
-    margin: 1rem;
+.toast {
+  padding: 2rem;
+  background: rgb(181, 5, 197);
+  color: #fff;
+  border-radius: 6px;
+  margin: 1rem;
 }
