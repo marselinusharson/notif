@@ -21,6 +21,12 @@ button {
   padding: 1rem;
   border: none;
   font-family: inherit;
+  cursor: pointer;
+  transition: transform 0.1s linear;
+}
+button:active {
+  box-shadow: 0;
+  transform: translate(0px, 3px);
 }
 
 #container {
